@@ -1,0 +1,150 @@
+
+@media (min-width: 1200px) {
+    #page-home {
+        background-position-x: 40vw;
+    }
+}
+
+@media (max-width: 768px) {
+    #page-home {
+        background-position-x: 520px;
+    }
+
+    #page-home main {
+        max-width: 768px;
+    }
+
+    #page-home main h1 {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    #page-home main p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #page-home main a {
+        position: absolute;
+
+        margin-top: 150px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+    }
+
+    #page-create-point form button {
+        position: absolute;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-search-results main .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (max-width: 576px) { 
+    #page-search-results main .cards {
+        grid-template-columns: 1fr;
+    }
+
+    #page-search-results main .card img {
+        height: 250px;
+    }
+}
+
+
+@media (max-width: 356px) { 
+    #page-home header{
+        margin-top: 38px;
+    
+        display: flex;
+        flex-direction: column;
+    }
+
+    #page-home header a {
+        margin-top: 24px;
+    }
+
+    #page-home main a {
+        margin-top: 160px;
+        max-width: 320px;
+    }
+
+    #page-create-point header {
+        margin-top: 48px;
+    
+        display: flex;
+        flex-direction: column;
+    }
+
+    #page-create-point header a {
+        margin-top: 24px;
+    }
+
+    #page-create-point form {
+        margin: 36px auto;
+        padding: 20px;
+        border-radius: 8px;
+    
+        max-width: 330px;
+    }
+
+    #page-create-point form h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    
+    #page-create-point form legend {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+   
+    #page-create-point form legend span {
+        margin-top: 26px;
+    }
+
+    #page-create-point form .items-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #page-search-results header {
+        margin-top: 38px;
+    
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #page-search-results header a {
+        margin-top: 24px;
+    }
+
+    #page-search-results main .card img {
+        height: 180px;
+    }
+
+    #modal .content {
+        width: 320px;
+    }
+
+    #modal .header h1 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+    
+}
